@@ -1,0 +1,45 @@
+<map id="Map::index" name="Map::index">
+<area shape="rect" id="node1" title="Indexes the map at the given point." alt="" coords="1860,261,1955,287"/>
+<area shape="rect" id="node2" href="$classInstance.html#a1fcfa01479d534f22741adddf23c4473" title="Calculate the distance heuristic for each agent and location." alt="" coords="1647,71,1794,112"/>
+<area shape="rect" id="node5" href="$classVisualizer.html#a5b9e61af0811391b1e32524439d77432" title="Generate rectangles, that represents the cells in the map." alt="" coords="1653,136,1788,177"/>
+<area shape="rect" id="node6" href="$classMap.html#a892ee6a5183c96c64f9070c2373e0421" title="Indexes the map at the given free location (free locations means locations, that are not static obsta..." alt="" coords="1657,202,1784,229"/>
+<area shape="rect" id="node7" href="$classMap.html#addc1c2f9e3dc7dcccb3a934879aafc3b" title="Converts a location index to a free location index." alt="" coords="1639,253,1802,295"/>
+<area shape="rect" id="node39" href="$classSIPP.html#a554425ea66302db84cbbd55252347ddc" title="Plans a path for the given agent number using the original single&#45;heuristic version of the SIPP algor..." alt="" coords="1647,319,1794,360"/>
+<area shape="rect" id="node40" href="$classSIPP.html#a99ea39d64a73b10e97046debfcd2d873" title="Plans a path for the given agent number using the multi&#45;heuristic version of the SIPP algorithm." alt="" coords="1641,385,1801,411"/>
+<area shape="rect" id="node41" href="$classSIPP.html#a9c3c0bb8577a4af7cc66dc11b639cb18" title="Plans a path for the given agent number using the ap multi&#45;heuristic version of the SIPP algorithm." alt="" coords="1629,435,1812,462"/>
+<area shape="rect" id="node42" href="$classSIPP.html#a440a585afee1b9ff3ae38ed91960b353" title="Plans a path for the given agent number using the original Bounded Suboptimal SIPP algorithm." alt="" coords="1637,486,1804,513"/>
+<area shape="rect" id="node43" href="$classInstance.html#a314514e5ae9a143aeafafa44ada894a9" title="Precomputes the neighbors for each location in the map." alt="" coords="1419,5,1581,47"/>
+<area shape="rect" id="node3" href="$classInstance.html#ab0a13882331419777eaa2870fbbf3c0a" title="Calculates the heuristics for the agents." alt="" coords="1428,71,1572,112"/>
+<area shape="rect" id="node4" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="1189,13,1330,39"/>
+<area shape="rect" id="node8" href="$classInstance.html#a169d34ab72276c674151fc9478714ba1" title="Converts a location to a free location." alt="" coords="1431,420,1569,461"/>
+<area shape="rect" id="node9" href="$classEdgeConstraintTableWithAgentNums.html#aad915f6b894d5da8aa3ac0d7c503a3c7" title="Adds an edge constraint to the table." alt="" coords="1148,129,1371,171"/>
+<area shape="rect" id="node18" href="$classEdgeConstraintTable.html#a0a2eaab4ddac33b637461db8c7b7802c" title="Adds an edge constraint to the table." alt="" coords="1166,757,1353,783"/>
+<area shape="rect" id="node21" href="$classSafeIntervalTable.html#a7323895f0831d0be6a4e6689f65cfee4" title="Adds a constraint to the safe interval table." alt="" coords="1188,691,1331,732"/>
+<area shape="rect" id="node22" href="$classConstraintTable.html#aff82442aa2588d601799d3e192f085db" title="Adds a constraint to the constraint table for the given timepoint and agent number." alt="" coords="1182,195,1337,236"/>
+<area shape="rect" id="node23" href="$classEdgeConstraintTable.html#ad09d951be4e60f6a73eea0f873e50aa7" title="Checks if an edge constraint exists in the table." alt="" coords="1167,639,1351,666"/>
+<area shape="rect" id="node24" href="$classConstraintTable.html#add338b302f24339c2c648cd1eb1018a5" title="Returns agents, that enter a given location, along with how many they enter it." alt="" coords="933,453,1085,495"/>
+<area shape="rect" id="node29" href="$classConstraintTable.html#a2c52de5157e198d0d8961de4c31ee302" title="Returns the last constraint start time for a given location." alt="" coords="1178,391,1341,432"/>
+<area shape="rect" id="node31" href="$classSafeIntervalTable.html#a3c935b379679efb82451596f8c1a1f2b" title="Gets the last safe interval for a given location." alt="" coords="1176,808,1343,849"/>
+<area shape="rect" id="node32" href="$classSafeIntervalTable.html#a2c2c1dce378dd039c872a55b1d8dab8c" title="Get the minimal reach time of a location." alt="" coords="1182,64,1337,105"/>
+<area shape="rect" id="node33" href="$classEdgeConstraintTableWithAgentNums.html#af83c763a4c4a384a887bb1c01f712bc6" title="Removes an edge constraint from the table." alt="" coords="1148,260,1371,301"/>
+<area shape="rect" id="node35" href="$classEdgeConstraintTable.html#a2d5dd7016a7603735b0c9b4ebc61a857" title="Removes an edge constraint from the table." alt="" coords="1182,508,1337,549"/>
+<area shape="rect" id="node37" href="$classSafeIntervalTable.html#a4c7d822c436caf8822ed179e00b6c94e" title="Removes a constraint from the safe interval table." alt="" coords="1187,573,1331,615"/>
+<area shape="rect" id="node38" href="$classConstraintTable.html#a337ab1a6d473a1e46934c312cba144c6" title="Removes a constraint from the constraint table for the given timepoint and agent number." alt="" coords="1169,325,1350,367"/>
+<area shape="rect" id="node10" href="$classConstraintTable.html#a26372c16fc3dc1796c362d19489a78de" title="Adds a path of a given agent to the constraint table." alt="" coords="932,195,1087,236"/>
+<area shape="rect" id="node11" href="$classConstraintTable.html#ab2bd3a0825989119ce58b5194e294a1d" title="Sequentially builds the constraint table from the given paths." alt="" coords="695,151,858,192"/>
+<area shape="rect" id="node16" href="$classLNS.html#a319d877bb15af0145e03c374929d3ddc" title="Discards the solution if it is not better than the previous one. Restores the SafeIntervalTable and C..." alt="" coords="696,267,857,294"/>
+<area shape="rect" id="node17" href="$classLNS.html#af3084016c73f066f5e33e0d4847b50c2" title="The repair operator function, which repairs the solution." alt="" coords="703,217,850,243"/>
+<area shape="rect" id="node12" href="$classLNS.html#a658e49decd804a9fa1a08d065ae6304d" title="Builds the constraint table for the given paths." alt="" coords="452,163,635,204"/>
+<area shape="rect" id="node13" href="$classLNS.html#ab4a4826221160701ee3cf6ca93feb1f7" title="Solves the given instance using the LNS algorithm." alt="" coords="313,206,404,233"/>
+<area shape="rect" id="node14" href="$destroy_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="108,206,265,233"/>
+<area shape="rect" id="node15" href="$destroy_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,206,60,233"/>
+<area shape="rect" id="node19" href="$classSafeIntervalTable.html#a787f99329e3378787106076ecaf026a9" title="Adds all constraints created by a path to the safe interval table." alt="" coords="938,720,1081,761"/>
+<area shape="rect" id="node20" href="$classSafeIntervalTable.html#aab5207a25c528d600ca267d4ba8ef188" title="Builds the safe interval table sequentially." alt="" coords="705,720,848,761"/>
+<area shape="rect" id="node25" href="$classLNS.html#a5ccad09a04930841c3615ecf8ec0972d" title="The intersection destroy operator function." alt="" coords="683,429,871,455"/>
+<area shape="rect" id="node26" href="$classLNS.html#a412b23f4704dc3ce9e01fe0331ca8728" title="The adaptive destroy operator function." alt="" coords="459,429,627,455"/>
+<area shape="rect" id="node27" href="$classLNS.html#a6d3648748e40c87140940d9912aac986" title="Constructor for the LNS class." alt="" coords="319,429,399,455"/>
+<area shape="rect" id="node28" href="$classLNS.html#af68cb150f64a0c8f249057ab57364f48" title="The random choose destroy operator function." alt="" coords="463,480,624,521"/>
+<area shape="rect" id="node30" href="$classLNS.html#a852ca0c6ca9152bef516c29f3c210f66" title="A function used in the intersection destroy operator to get the agents that are intersecting at a giv..." alt="" coords="929,388,1089,429"/>
+<area shape="rect" id="node34" href="$classConstraintTable.html#af360477b2e043a058cbb2b82d24fd37f" title="Removes a path of a given agent from the constraint table." alt="" coords="919,260,1100,301"/>
+<area shape="rect" id="node36" href="$classSafeIntervalTable.html#a468afa97880d6f8daeada75d8cc08cf2" title="Removes all constraints created by a path from the safe interval table." alt="" coords="934,548,1085,589"/>
+</map>

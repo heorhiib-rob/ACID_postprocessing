@@ -1,0 +1,5 @@
+<map id="EdgeConstraintTable::add" name="EdgeConstraintTable::add">
+<area shape="rect" id="node1" title="Adds an edge constraint to the table." alt="" coords="387,13,573,39"/>
+<area shape="rect" id="node2" href="$classSafeIntervalTable.html#a787f99329e3378787106076ecaf026a9" title="Adds all constraints created by a path to the safe interval table." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node3" href="$classSafeIntervalTable.html#aab5207a25c528d600ca267d4ba8ef188" title="Builds the safe interval table sequentially." alt="" coords="5,5,148,47"/>
+</map>

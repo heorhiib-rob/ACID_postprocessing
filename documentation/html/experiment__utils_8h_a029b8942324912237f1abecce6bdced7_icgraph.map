@@ -1,0 +1,5 @@
+<map id="get_scene_names" name="get_scene_names">
+<area shape="rect" id="node1" title="Get names of the scenes for the given map and number of runs." alt="" coords="219,31,357,57"/>
+<area shape="rect" id="node2" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="25,5,151,32"/>
+<area shape="rect" id="node3" href="$experiment__utils_8cpp.html#a4a4290ed3a3fa3c91fb32e2ef58bbd82" title="Determine, which experiments were already performed and can be skipped." alt="" coords="5,56,171,83"/>
+</map>

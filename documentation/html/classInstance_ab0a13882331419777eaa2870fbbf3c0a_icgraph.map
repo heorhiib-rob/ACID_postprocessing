@@ -1,0 +1,4 @@
+<map id="Instance::calculate_heuristics" name="Instance::calculate_heuristics">
+<area shape="rect" id="node1" title="Calculates the heuristics for the agents." alt="" coords="195,5,339,47"/>
+<area shape="rect" id="node2" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="5,13,147,39"/>
+</map>

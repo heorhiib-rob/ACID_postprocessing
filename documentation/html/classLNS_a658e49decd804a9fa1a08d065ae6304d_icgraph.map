@@ -1,0 +1,6 @@
+<map id="LNS::initialize_constraint_table" name="LNS::initialize_constraint_table">
+<area shape="rect" id="node1" title="Builds the constraint table for the given paths." alt="" coords="452,5,635,47"/>
+<area shape="rect" id="node2" href="$classLNS.html#ab4a4826221160701ee3cf6ca93feb1f7" title="Solves the given instance using the LNS algorithm." alt="" coords="313,13,404,39"/>
+<area shape="rect" id="node3" href="$destroy_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="108,13,265,39"/>
+<area shape="rect" id="node4" href="$destroy_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,13,60,39"/>
+</map>

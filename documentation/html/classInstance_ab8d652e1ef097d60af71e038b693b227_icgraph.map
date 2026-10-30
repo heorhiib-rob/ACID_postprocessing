@@ -1,0 +1,5 @@
+<map id="Instance::position_to_location" name="Instance::position_to_location">
+<area shape="rect" id="node1" title="Converts a 2D point to a location." alt="" coords="339,5,476,47"/>
+<area shape="rect" id="node2" href="$classSolution.html#a9df6f3a07aa7d31c13349b1d1d837eb7" title="Function to load a solution from a file." alt="" coords="180,13,291,39"/>
+<area shape="rect" id="node3" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="5,13,132,39"/>
+</map>

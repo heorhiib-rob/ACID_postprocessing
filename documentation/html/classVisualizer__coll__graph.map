@@ -1,0 +1,13 @@
+<map id="Visualizer" name="Visualizer">
+<area shape="rect" id="node1" title="Class,which represents the visualizer, and encapsulates all visual elements." alt="" coords="259,303,346,329"/>
+<area shape="rect" id="node2" href="$classVisualization.html" title="Class representing a visualization of something." alt="" coords="5,184,112,211"/>
+<area shape="rect" id="node3" href="$structSettings.html" title="Struct with info about the instance." alt="" coords="136,184,211,211"/>
+<area shape="rect" id="node4" href="$classClock.html" title="A class for time measurement." alt="" coords="235,184,293,211"/>
+<area shape="rect" id="node5" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="639,95,716,121"/>
+<area shape="rect" id="node8" href="$classComputation.html" title="Handles all computation, invokes the solver, and manages the thread." alt="" coords="451,184,557,211"/>
+<area shape="rect" id="node6" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="652,5,703,32"/>
+<area shape="rect" id="node7" href="$classSharedData.html" title="A class to hold shared data between computation and visualization threads." alt="" coords="309,95,408,121"/>
+<area shape="rect" id="node9" href="$classLNS__settings.html" title="Settings for the Large Neighborhood Search (LNS) algorithm." alt="" coords="448,95,555,121"/>
+<area shape="rect" id="node10" href="$classDestroy__settings.html" title="Settings of the destroy operator." alt="" coords="309,5,441,32"/>
+<area shape="rect" id="node11" href="$classSIPP__settings.html" title="Represents settings for the SIPP algorithm." alt="" coords="465,5,575,32"/>
+</map>

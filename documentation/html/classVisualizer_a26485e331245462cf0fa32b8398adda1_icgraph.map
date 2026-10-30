@@ -1,0 +1,6 @@
+<map id="Visualizer::draw_cell_rectangles" name="Visualizer::draw_cell_rectangles">
+<area shape="rect" id="node1" title="Draw the cells." alt="" coords="443,5,599,47"/>
+<area shape="rect" id="node2" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="280,13,395,39"/>
+<area shape="rect" id="node3" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,13,232,39"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,13,60,39"/>
+</map>

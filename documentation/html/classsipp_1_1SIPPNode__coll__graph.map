@@ -1,0 +1,6 @@
+<map id="sipp::SIPPNode" name="sipp::SIPPNode">
+<area shape="rect" id="node1" title="Represents a node in the SIPP algorithm." alt="" coords="5,184,124,211"/>
+<area shape="rect" id="node2" href="$classNode.html" title="A class representing a node in a search algorithm." alt="" coords="15,95,71,121"/>
+<area shape="rect" id="node3" href="$classTimePoint.html" title="A class that represents a location along with its time interval." alt="" coords="96,95,183,121"/>
+<area shape="rect" id="node4" href="$classTimeInterval.html" title="A class that represents a time interval." alt="" coords="87,5,191,32"/>
+</map>

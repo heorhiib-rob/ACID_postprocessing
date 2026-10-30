@@ -1,0 +1,4 @@
+<map id="Computation::stop" name="Computation::stop">
+<area shape="rect" id="node1" title="Stops the computation thread." alt="" coords="263,5,405,32"/>
+<area shape="rect" id="node2" href="$classComputation.html#aad14e9593597150e351ee5d3a9a87ebe" title="Destructor for the Computation class." alt="" coords="5,5,215,32"/>
+</map>

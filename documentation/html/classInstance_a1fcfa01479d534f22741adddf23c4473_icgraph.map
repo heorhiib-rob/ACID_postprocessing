@@ -1,0 +1,5 @@
+<map id="Instance::calculate_distance_heuristic" name="Instance::calculate_distance_heuristic">
+<area shape="rect" id="node1" title="Calculate the distance heuristic for each agent and location." alt="" coords="387,5,533,47"/>
+<area shape="rect" id="node2" href="$classInstance.html#ab0a13882331419777eaa2870fbbf3c0a" title="Calculates the heuristics for the agents." alt="" coords="195,5,339,47"/>
+<area shape="rect" id="node3" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="5,13,147,39"/>
+</map>

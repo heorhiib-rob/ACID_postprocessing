@@ -1,0 +1,10 @@
+<map id="SIPP" name="SIPP">
+<area shape="rect" id="node1" title="Class representing the SIPP algorithm." alt="" coords="154,363,205,389"/>
+<area shape="rect" id="node2" href="$classSafeIntervalTable.html" title="The SafeIntervalTable class stores the safe intervals for each location in the grid." alt="" coords="37,273,172,300"/>
+<area shape="rect" id="node3" href="$classEdgeConstraintTable.html" title="A class representing a table of edge constraints." alt="" coords="133,184,287,211"/>
+<area shape="rect" id="node4" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="10,95,87,121"/>
+<area shape="rect" id="node5" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="23,5,74,32"/>
+<area shape="rect" id="node6" href="$structomp__locks.html" title="A class that wraps OpenMP locks for parallelization." alt="" coords="312,184,404,211"/>
+<area shape="rect" id="node7" href="$classsipp_1_1NodePool.html" title="Represents a pool of SIPP nodes. This class manages the allocation and deallocation of SIPP nodes...." alt="" coords="200,273,319,300"/>
+<area shape="rect" id="node8" href="$classSIPP__settings.html" title="Represents settings for the SIPP algorithm." alt="" coords="343,273,453,300"/>
+</map>

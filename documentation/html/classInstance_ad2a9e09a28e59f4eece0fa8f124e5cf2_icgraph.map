@@ -1,0 +1,4 @@
+<map id="Instance::load_scene" name="Instance::load_scene">
+<area shape="rect" id="node1" title="Load the scene from a file specified during Instance initialization." alt="" coords="195,5,353,32"/>
+<area shape="rect" id="node2" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="5,5,147,32"/>
+</map>

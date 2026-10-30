@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['right_5fpanel_5fsize_5fdefault_0',['RIGHT_PANEL_SIZE_DEFAULT',['../Visualizer_8cpp.html#a9cf3bc79ff19d63aea2dbe6b7265db8c',1,'Visualizer.cpp']]],
+  ['runs_5fper_5fmap_1',['runs_per_map',['../destroy_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;destroy.cpp'],['../feasible_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;feasible.cpp'],['../feasible__restarts_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;feasible_restarts.cpp'],['../influence__of__ap_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;influence_of_ap.cpp'],['../influence__of__p_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;influence_of_p.cpp'],['../influence__of__w_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;influence_of_w.cpp'],['../overall__improvement_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;overall_improvement.cpp'],['../repair_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;repair.cpp'],['../sipp__pp_8cpp.html#ad2409199635ce37fafbee2634c4ec94b',1,'RUNS_PER_MAP:&#160;sipp_pp.cpp']]]
+];

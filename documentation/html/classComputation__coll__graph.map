@@ -1,0 +1,9 @@
+<map id="Computation" name="Computation">
+<area shape="rect" id="node1" title="Handles all computation, invokes the solver, and manages the thread." alt="" coords="103,184,209,211"/>
+<area shape="rect" id="node2" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="5,95,83,121"/>
+<area shape="rect" id="node3" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="19,5,69,32"/>
+<area shape="rect" id="node4" href="$classSharedData.html" title="A class to hold shared data between computation and visualization threads." alt="" coords="107,95,205,121"/>
+<area shape="rect" id="node5" href="$classLNS__settings.html" title="Settings for the Large Neighborhood Search (LNS) algorithm." alt="" coords="229,95,336,121"/>
+<area shape="rect" id="node6" href="$classDestroy__settings.html" title="Settings of the destroy operator." alt="" coords="155,5,287,32"/>
+<area shape="rect" id="node7" href="$classSIPP__settings.html" title="Represents settings for the SIPP algorithm." alt="" coords="312,5,421,32"/>
+</map>

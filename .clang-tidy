@@ -1,0 +1,15 @@
+Checks: >
+  -*,
+  clang-analyzer-*,
+  bugprone-*,
+  modernize-*,
+  performance-*,
+  readability-*,
+  cppcoreguidelines-*,
+  hicpp-*,
+  portability-*,
+  cert-*
+
+HeaderFilterRegex: 'src/.*'  # Only analyze your own source code
+AnalyzeTemporaryDtors: true
+FormatStyle: file

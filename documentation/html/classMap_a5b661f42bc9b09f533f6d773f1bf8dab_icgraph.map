@@ -1,0 +1,17 @@
+<map id="Map::get_num_free_cells" name="Map::get_num_free_cells">
+<area shape="rect" id="node1" title="Getter fur the number of free cells in the map." alt="" coords="937,149,1123,176"/>
+<area shape="rect" id="node2" href="$classInstance.html#ab0a13882331419777eaa2870fbbf3c0a" title="Calculates the heuristics for the agents." alt="" coords="730,54,874,95"/>
+<area shape="rect" id="node4" href="$classInstance.html#a0575e9709197df95038612049a6bbc09" title="Getter for the number of free cells in the map." alt="" coords="715,174,889,215"/>
+<area shape="rect" id="node3" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="443,5,584,32"/>
+<area shape="rect" id="node5" href="$classConstraintTable.html#a5c386191610acb6c7f06ece5c799dc76" title="Constructs a constraint table for the given instance." alt="" coords="414,57,613,98"/>
+<area shape="rect" id="node6" href="$classLNS.html#a5ccad09a04930841c3615ecf8ec0972d" title="The intersection destroy operator function." alt="" coords="419,123,607,149"/>
+<area shape="rect" id="node10" href="$classEdgeConstraintTable.html#a9d043f53a556d662f54999671de2e552" title="Constructs an EdgeConstraintTable object." alt="" coords="432,174,595,215"/>
+<area shape="rect" id="node11" href="$classEdgeConstraintTableWithAgentNums.html#a5458ba7fc89e5e277415e996b2ed4cc0" title="Constructs an edge constraint table." alt="" coords="360,239,667,281"/>
+<area shape="rect" id="node12" href="$classEdgeConstraintTable.html#a7fba59271920690ec7eef73b2569559c" title="Resets the edge constraint table." alt="" coords="436,305,591,346"/>
+<area shape="rect" id="node15" href="$classSafeIntervalTable.html#a6e918fffce85020e3be33bbca96d7695" title="Constructs a SafeIntervalTable object." alt="" coords="442,370,585,411"/>
+<area shape="rect" id="node7" href="$classLNS.html#a412b23f4704dc3ce9e01fe0331ca8728" title="The adaptive destroy operator function." alt="" coords="144,72,312,99"/>
+<area shape="rect" id="node8" href="$classLNS.html#a6d3648748e40c87140940d9912aac986" title="Constructor for the LNS class." alt="" coords="11,123,91,149"/>
+<area shape="rect" id="node9" href="$classLNS.html#af68cb150f64a0c8f249057ab57364f48" title="The random choose destroy operator function." alt="" coords="147,174,309,215"/>
+<area shape="rect" id="node13" href="$classSafeIntervalTable.html#aa9d1c371c39f3458f1f8492778a7f72e" title="Resets the safe interval table." alt="" coords="157,305,299,346"/>
+<area shape="rect" id="node14" href="$classSIPP.html#aecbadddd1d20b7ced6e12aef5ba47d28" title="Reset the SIPP algorithm." alt="" coords="5,312,96,339"/>
+</map>

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['implementation_1870',['implementation',['../classSIPP__settings.html#abe9390def49458f3893eda571c772461',1,'SIPP_settings']]],
+  ['improvement_1871',['improvement',['../classLNSIterationInfo.html#ab05c521b99bb5cb8585e92f465d53a19',1,'LNSIterationInfo']]],
+  ['info_5ftype_1872',['info_type',['../classSIPP__settings.html#a80517408eff6445a5e4e311dd97f45f3',1,'SIPP_settings']]],
+  ['initial_5fsolution_5ftime_1873',['initial_solution_time',['../classLNS.html#a74f5c3ff08ec039b54e2b0d2e13d7902',1,'LNS']]],
+  ['initialized_1874',['initialized',['../classInstance.html#a667c9f85315f4a2b97abd1a1faf54e56',1,'Instance::initialized()'],['../classClock.html#acc9c693849246b853174e59c9487b240',1,'Clock::initialized()']]],
+  ['instance_1875',['instance',['../classComputation.html#a87cff792f98d719581ce8f0b4307062d',1,'Computation::instance()'],['../classEdgeConstraintTableWithAgentNums.html#a7ed80eb6b43a24323808c9ed3868ba21',1,'EdgeConstraintTableWithAgentNums::instance()'],['../classConstraintTable.html#ae92c68006d92dca5960225eb2687353d',1,'ConstraintTable::instance()'],['../classEdgeConstraintTable.html#a4bca9c0fb4888298bd774635db49c677',1,'EdgeConstraintTable::instance()'],['../classSafeIntervalTable.html#a2196c4eda61b0b37f1848a8a22fdebf2',1,'SafeIntervalTable::instance()'],['../classSIPP.html#a7955c116424afc30af1bd0aab34e289d',1,'SIPP::instance()'],['../classSolver.html#aab0194de0c17e2988aa14a59b7da6b45',1,'Solver::instance()'],['../classVisualizer.html#a3050ffed49ade8440d16d38130c71f47',1,'Visualizer::instance()']]],
+  ['interval_1876',['interval',['../classTimePoint.html#a8933839f61c594359e43f0f5019f6980',1,'TimePoint']]],
+  ['is_5fend_1877',['is_end',['../classSharedData.html#a9b6d6f30e8fbc9870cf5b91cb877231b',1,'SharedData']]],
+  ['is_5fmoving_1878',['is_moving',['../classVisualizer.html#a07c9c68754920d5a0217ea89ba17068a',1,'Visualizer']]],
+  ['is_5fnew_5finfo_1879',['is_new_info',['../classSharedData.html#af404913d3f16229b11128dc32c00fbd3',1,'SharedData']]],
+  ['is_5fplaying_1880',['is_playing',['../classVisualization.html#a510745052718cfc26dc7e8321dc1e617',1,'Visualization']]],
+  ['iter_5finfo_1881',['iter_info',['../classSIPP.html#a1542d58fab728f77bd99133e4539ba6b',1,'SIPP']]],
+  ['iteration_5fcounter_1882',['iteration_counter',['../classVisualization.html#a4ccaa847965b183f611f9cb0d4f4aca2',1,'Visualization']]],
+  ['iteration_5fnum_1883',['iteration_num',['../classSIPPIterationInfo.html#a895636ccfe76ec0382c8e06b8508c513',1,'SIPPIterationInfo::iteration_num()'],['../classLNSIterationInfo.html#ab17ab5416b53f8dc3bddb0494e3a39ad',1,'LNSIterationInfo::iteration_num()'],['../classLNS.html#ae17baaf28f9e3ad95783e8d42c8a5ad4',1,'LNS::iteration_num()'],['../classSIPP.html#adb10cd876a91a96f24adc94510d4f553',1,'SIPP::iteration_num()']]],
+  ['iteration_5ftime_5fcpu_1884',['iteration_time_cpu',['../structLogger.html#adae30f473fd77a97967d2735b353aeae',1,'Logger']]],
+  ['iteration_5ftime_5fwall_1885',['iteration_time_wall',['../structLogger.html#aaeea82e25c04960c1616f26b66717c46',1,'Logger']]]
+];

@@ -1,0 +1,4 @@
+<map id="SafeIntervalTable::add_constraints" name="SafeIntervalTable::add_constraints">
+<area shape="rect" id="node1" title="Adds all constraints created by a path to the safe interval table." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node2" href="$classSafeIntervalTable.html#aab5207a25c528d600ca267d4ba8ef188" title="Builds the safe interval table sequentially." alt="" coords="5,5,148,47"/>
+</map>

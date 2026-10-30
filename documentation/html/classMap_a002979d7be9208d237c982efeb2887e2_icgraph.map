@@ -1,0 +1,5 @@
+<map id="Map::load" name="Map::load">
+<area shape="rect" id="node1" title="Loads a map from a file." alt="" coords="392,5,479,32"/>
+<area shape="rect" id="node2" href="$classInstance.html#a1a88380161d5aeac8db660127470fed7" title="Load the map from a file specified during Instance initialization." alt="" coords="195,5,344,32"/>
+<area shape="rect" id="node3" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="5,5,147,32"/>
+</map>

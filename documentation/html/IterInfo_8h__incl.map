@@ -1,0 +1,19 @@
+<map id="inc/IterInfo.h" name="inc/IterInfo.h">
+<area shape="rect" id="node1" title="Contains classes for storing information about the iterations of the algorithm, which are used for lo..." alt="" coords="252,5,356,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="182,80,242,107"/>
+<area shape="rect" id="node3" href="$Solver_8h.html" title="Contains solver and solution related classes and functions." alt="" coords="267,80,341,107"/>
+<area shape="rect" id="node10" href="$utils_8h.html" title="Utility functions and classes for the project." alt="" coords="410,304,473,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="456,155,533,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,155,77,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="152,229,211,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="77,379,139,405"/>
+<area shape="rect" id="node8" href="$Instance_8h.html" title="MAPF problem instance representation and related functions." alt="" coords="259,155,349,181"/>
+<area shape="rect" id="node9" href="$Map_8h.html" title="Contains the Map class, which represents a 2D gridmap for pathfinding." alt="" coords="286,229,349,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="163,379,226,405"/>
+<area shape="rect" id="node12" title=" " alt="" coords="251,379,397,405"/>
+<area shape="rect" id="node13" title=" " alt="" coords="422,379,469,405"/>
+<area shape="rect" id="node14" title=" " alt="" coords="493,379,563,405"/>
+<area shape="rect" id="node15" title=" " alt="" coords="587,379,653,405"/>
+<area shape="rect" id="node16" title=" " alt="" coords="677,379,744,405"/>
+<area shape="rect" id="node17" title=" " alt="" coords="768,379,835,405"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Map::print" name="Map::print">
+<area shape="rect" id="node1" title="Constructs a Map object with the specified width and height." alt="" coords="204,5,292,32"/>
+<area shape="rect" id="node2" href="$classInstance.html#a177e628611a4e91f89029c9536fb51a0" title="Prints the map data." alt="" coords="5,5,156,32"/>
+</map>

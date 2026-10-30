@@ -1,0 +1,17 @@
+version 1
+0	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	2	3	5	1	0
+1	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	3	4	4	0	0
+2	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	7	7	5	2	0
+3	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	4	7	5	7	0
+4	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	3	2	1	3	0
+5	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	1	0	0	5	0
+6	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	2	0	2	1	0
+7	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	4	4	7	4	0
+8	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	5	6	3	5	0
+9	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	5	0	7	7	0
+10	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	2	4	3	4	0
+11	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	4	6	0	0	0
+12	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	3	7	7	1	0
+13	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	7	4	4	7	0
+14	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	0	1	5	6	0
+15	../MAPF-benchmark/mapf-map/empty-8-8.map	8	8	2	5	1	0	0

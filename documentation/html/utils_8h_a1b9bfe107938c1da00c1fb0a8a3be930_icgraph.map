@@ -1,0 +1,11 @@
+<map id="get_base_path" name="get_base_path">
+<area shape="rect" id="node1" title="Get the path to the project directory, assuming the project is run from the build directory...." alt="" coords="712,81,829,108"/>
+<area shape="rect" id="node2" href="$classExperiment.html#a9d57aa2ee9be54a9eb5e9fa95296b50e" title="Finds path to the initial solution file. Assumes, the initial solution files are stored in /experimen..." alt="" coords="455,5,664,32"/>
+<area shape="rect" id="node4" href="$classVisualizer.html#ab1083a1f85d0d6c312a71566dfd3156b" title="Load fonts and icons." alt="" coords="478,107,641,133"/>
+<area shape="rect" id="node8" href="$experiment__utils_8cpp.html#a068282ef2912ab2a112fbc6f1b5e5e35" title="Save the experiment results to a JSON file." alt="" coords="492,56,627,83"/>
+<area shape="rect" id="node9" href="$experiment__utils_8cpp.html#a4a4290ed3a3fa3c91fb32e2ef58bbd82" title="Determine, which experiments were already performed and can be skipped." alt="" coords="477,157,642,184"/>
+<area shape="rect" id="node3" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="280,31,407,57"/>
+<area shape="rect" id="node5" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="286,107,401,133"/>
+<area shape="rect" id="node6" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,107,232,133"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,107,60,133"/>
+</map>

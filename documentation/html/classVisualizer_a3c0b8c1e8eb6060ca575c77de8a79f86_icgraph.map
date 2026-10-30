@@ -1,0 +1,7 @@
+<map id="Visualizer::get_agent_position" name="Visualizer::get_agent_position">
+<area shape="rect" id="node1" title="Get position of a given agent at a given time step." alt="" coords="625,5,784,47"/>
+<area shape="rect" id="node2" href="$classVisualizer.html#a5039ba670d8066a94163e5f6460d7236" title="Create the left panel of the window." alt="" coords="443,5,577,47"/>
+<area shape="rect" id="node3" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="280,13,395,39"/>
+<area shape="rect" id="node4" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,13,232,39"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,13,60,39"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Clock::get_current_time" name="Clock::get_current_time">
+<area shape="rect" id="node1" title="Get current time without stopping the clock." alt="" coords="921,189,1099,215"/>
+<area shape="rect" id="node2" href="$classVisualizer.html#a59e5f57df1ebdc25e41fe26618f55644" title="Add a message to the log, which is displayed in the console." alt="" coords="699,101,865,127"/>
+<area shape="rect" id="node8" href="$classLNS.html#ab3adf7c10423f40dbbf163c99250bf02" title="Finds the initial solution for the LNS algorithm." alt="" coords="691,189,873,215"/>
+<area shape="rect" id="node11" href="$classLNS.html#ab4a4826221160701ee3cf6ca93feb1f7" title="Solves the given instance using the LNS algorithm." alt="" coords="519,239,609,266"/>
+<area shape="rect" id="node3" href="$classVisualizer.html#a4c89b9ca89d4217f3abc02252517d555" title="Create the menu bar for the window." alt="" coords="497,5,631,47"/>
+<area shape="rect" id="node4" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="301,71,416,98"/>
+<area shape="rect" id="node7" href="$classVisualizer.html#ab826718bf82d1ffafdcf991d1015d8a7" title="Dialog window asking for the number of agents." alt="" coords="492,123,636,164"/>
+<area shape="rect" id="node5" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,71,232,98"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,71,60,98"/>
+<area shape="rect" id="node9" href="$feasible_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="485,189,643,215"/>
+<area shape="rect" id="node10" href="$feasible_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="331,189,386,215"/>
+<area shape="rect" id="node12" href="$destroy_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="280,239,437,266"/>
+<area shape="rect" id="node13" href="$destroy_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="143,239,197,266"/>
+</map>

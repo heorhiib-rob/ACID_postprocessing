@@ -1,0 +1,11 @@
+<map id="Instance::get_heuristic_distance" name="Instance::get_heuristic_distance">
+<area shape="rect" id="node1" title="Getter for the distance heuristic for a given agent and location." alt="" coords="712,99,881,141"/>
+<area shape="rect" id="node2" href="$classSolution.html#a1802864ca1ab7bffdb1710644daf3877" title="Calculate the cost of the solution." alt="" coords="488,56,664,83"/>
+<area shape="rect" id="node7" href="$classLNS.html#a4ea599007b8b88f4bff0cf1f12a8e8c6" title="The blocked destroy operator function." alt="" coords="495,107,657,133"/>
+<area shape="rect" id="node9" href="$classInstance.html#aad5fc735ca29a154449c86c1690c743b" title="Initialization function, if the map and scene files and number of agents are already specified." alt="" coords="505,157,647,184"/>
+<area shape="rect" id="node3" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="313,5,440,32"/>
+<area shape="rect" id="node4" href="$classLNS.html#ab4a4826221160701ee3cf6ca93feb1f7" title="Solves the given instance using the LNS algorithm." alt="" coords="331,56,422,83"/>
+<area shape="rect" id="node5" href="$destroy_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="108,56,265,83"/>
+<area shape="rect" id="node6" href="$destroy_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" id="node8" href="$classLNS.html#a6d3648748e40c87140940d9912aac986" title="Constructor for the LNS class." alt="" coords="337,107,417,133"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Clock::start" name="Clock::start">
+<area shape="rect" id="node1" title="Start the clock." alt="" coords="749,81,845,108"/>
+<area shape="rect" id="node2" href="$classLNS.html#ab3adf7c10423f40dbbf163c99250bf02" title="Finds the initial solution for the LNS algorithm." alt="" coords="519,5,701,32"/>
+<area shape="rect" id="node5" href="$classLNS.html#ab4a4826221160701ee3cf6ca93feb1f7" title="Solves the given instance using the LNS algorithm." alt="" coords="347,56,437,83"/>
+<area shape="rect" id="node8" href="$experiment__utils_8cpp.html#afc9c46a1b6ef580b9375fe7fd649bdc0" title="Load instances from the given scenes." alt="" coords="551,107,669,133"/>
+<area shape="rect" id="node9" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="329,132,455,159"/>
+<area shape="rect" id="node3" href="$feasible_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="313,5,471,32"/>
+<area shape="rect" id="node4" href="$feasible_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="159,5,214,32"/>
+<area shape="rect" id="node6" href="$destroy_8cpp.html#a1fe60ef45fb8a4e175eb3b737505f3d5" title=" " alt="" coords="108,56,265,83"/>
+<area shape="rect" id="node7" href="$destroy_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,56,60,83"/>
+</map>

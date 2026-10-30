@@ -1,0 +1,13 @@
+<map id="double_to_str" name="double_to_str">
+<area shape="rect" id="node1" title="Convert a double to a string representation." alt="" coords="937,159,1048,186"/>
+<area shape="rect" id="node2" href="$classVisualizer.html#a59e5f57df1ebdc25e41fe26618f55644" title="Add a message to the log, which is displayed in the console." alt="" coords="724,101,889,127"/>
+<area shape="rect" id="node8" href="$utils_8cpp.html#a78394d80bfa78ae2a46e1b4380f75a93" title="Convert an any type to a string representation." alt="" coords="761,189,852,215"/>
+<area shape="rect" id="node3" href="$classVisualizer.html#a4c89b9ca89d4217f3abc02252517d555" title="Create the menu bar for the window." alt="" coords="498,5,633,47"/>
+<area shape="rect" id="node4" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="286,71,401,98"/>
+<area shape="rect" id="node7" href="$classVisualizer.html#ab826718bf82d1ffafdcf991d1015d8a7" title="Dialog window asking for the number of agents." alt="" coords="493,123,637,164"/>
+<area shape="rect" id="node5" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,71,232,98"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,71,60,98"/>
+<area shape="rect" id="node9" href="$classAlgorithm.html#af1ead5c4936488b44578473e55f5a9d3" title="Getter for the algorithm name." alt="" coords="486,189,645,215"/>
+<area shape="rect" id="node11" href="$classAlgorithm.html#a24f689b0d24daf6b7b6d39113dbdbc0c" title="Get a string representation of the parameters of the algorithm." alt="" coords="455,239,676,266"/>
+<area shape="rect" id="node10" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="280,214,407,241"/>
+</map>

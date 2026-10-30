@@ -1,0 +1,7 @@
+<map id="safe_increase" name="safe_increase">
+<area shape="rect" id="node1" title="A overflow&#45;safe function to increase an integer value." alt="" coords="236,97,348,123"/>
+<area shape="rect" id="node2" href="$classSIPP.html#a554425ea66302db84cbbd55252347ddc" title="Plans a path for the given agent number using the original single&#45;heuristic version of the SIPP algor..." alt="" coords="23,5,170,47"/>
+<area shape="rect" id="node3" href="$classSIPP.html#a99ea39d64a73b10e97046debfcd2d873" title="Plans a path for the given agent number using the multi&#45;heuristic version of the SIPP algorithm." alt="" coords="17,71,177,98"/>
+<area shape="rect" id="node4" href="$classSIPP.html#a9c3c0bb8577a4af7cc66dc11b639cb18" title="Plans a path for the given agent number using the ap multi&#45;heuristic version of the SIPP algorithm." alt="" coords="5,122,188,149"/>
+<area shape="rect" id="node5" href="$classSIPP.html#a440a585afee1b9ff3ae38ed91960b353" title="Plans a path for the given agent number using the original Bounded Suboptimal SIPP algorithm." alt="" coords="13,173,180,199"/>
+</map>

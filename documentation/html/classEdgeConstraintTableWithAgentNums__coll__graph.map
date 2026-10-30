@@ -1,0 +1,5 @@
+<map id="EdgeConstraintTableWithAgentNums" name="EdgeConstraintTableWithAgentNums">
+<area shape="rect" id="node1" title="Represents a table of all edge constraints for all agents." alt="" coords="5,184,267,211"/>
+<area shape="rect" id="node2" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="97,95,175,121"/>
+<area shape="rect" id="node3" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="111,5,161,32"/>
+</map>

@@ -1,0 +1,11 @@
+experiments/experiment_database.db
+.venv/
+__pycache__/
+
+/experiments/*
+.cache/
+*.swp
+*.ini
+callgrind*
+
+build/

@@ -1,0 +1,5 @@
+<map id="Computation::run" name="Computation::run">
+<area shape="rect" id="node1" title="The main function that runs the computation, which is called in the thread." alt="" coords="300,5,435,32"/>
+<area shape="rect" id="node2" href="$classComputation.html#a5afbbb03e99cf15d4c9647ef6b44299d" title="Starts the computation thread." alt="" coords="108,5,252,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,5,60,32"/>
+</map>

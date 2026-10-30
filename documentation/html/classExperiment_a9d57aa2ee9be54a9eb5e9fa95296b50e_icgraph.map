@@ -1,0 +1,4 @@
+<map id="Experiment::get_initsol_path" name="Experiment::get_initsol_path">
+<area shape="rect" id="node1" title="Finds path to the initial solution file. Assumes, the initial solution files are stored in /experimen..." alt="" coords="180,5,389,32"/>
+<area shape="rect" id="node2" href="$classExperiment.html#ac3467eb067f8623c9cf3cd7c736a8c80" title="Runs the experiment." alt="" coords="5,5,132,32"/>
+</map>

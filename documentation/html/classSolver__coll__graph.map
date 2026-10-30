@@ -1,0 +1,6 @@
+<map id="Solver" name="Solver">
+<area shape="rect" id="node1" title="A class that represents a solver for the MAPF problem." alt="" coords="66,184,129,211"/>
+<area shape="rect" id="node2" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="5,95,83,121"/>
+<area shape="rect" id="node3" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="19,5,69,32"/>
+<area shape="rect" id="node4" href="$classSolution.html" title="A class that represents the solution of the MAPF problem." alt="" coords="107,95,181,121"/>
+</map>

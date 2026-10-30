@@ -1,0 +1,4 @@
+<map id="Solver" name="Solver">
+<area shape="rect" id="node1" title="A class that represents a solver for the MAPF problem." alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node2" href="$classLNS.html" title="Class representing the Large Neighborhood Search (LNS) algorithm." alt="" coords="13,80,60,107"/>
+</map>

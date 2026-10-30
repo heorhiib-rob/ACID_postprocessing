@@ -1,0 +1,16 @@
+<map id="LNS" name="LNS">
+<area shape="rect" id="node1" title="Class representing the Large Neighborhood Search (LNS) algorithm." alt="" coords="1100,232,1147,259"/>
+<area shape="rect" id="node2" href="$classSolver.html" title="A class that represents a solver for the MAPF problem." alt="" coords="458,169,521,196"/>
+<area shape="rect" id="node3" href="$classInstance.html" title="If this is defined, the manhattan and euclidean heuristics are calculated." alt="" coords="173,108,251,135"/>
+<area shape="rect" id="node6" href="$classConstraintTable.html" title="A class representing a constraint table, which stores all dynamic constraints." alt="" coords="817,75,940,101"/>
+<area shape="rect" id="node7" href="$classEdgeConstraintTableWithAgentNums.html" title="Represents a table of all edge constraints for all agents." alt="" coords="359,56,620,83"/>
+<area shape="rect" id="node4" href="$classMap.html" title="Represents a 2D gridmap for pathfinding." alt="" coords="5,108,56,135"/>
+<area shape="rect" id="node5" href="$classSolution.html" title="A class that represents the solution of the MAPF problem." alt="" coords="175,188,249,215"/>
+<area shape="rect" id="node8" href="$structomp__locks.html" title="A class that wraps OpenMP locks for parallelization." alt="" coords="443,5,535,32"/>
+<area shape="rect" id="node9" href="$classSharedData.html" title="A class to hold shared data between computation and visualization threads." alt="" coords="829,205,928,232"/>
+<area shape="rect" id="node10" href="$classOperator.html" title="Class representing a generic operator for the LNS algorithm." alt="" coords="839,259,918,285"/>
+<area shape="rect" id="node11" href="$structLogger.html" title="This class is used to log the iterations of the LNS algorithm." alt="" coords="845,309,912,336"/>
+<area shape="rect" id="node12" href="$classLNS__settings.html" title="Settings for the Large Neighborhood Search (LNS) algorithm." alt="" coords="825,360,932,387"/>
+<area shape="rect" id="node13" href="$classDestroy__settings.html" title="Settings of the destroy operator." alt="" coords="423,335,555,361"/>
+<area shape="rect" id="node14" href="$classSIPP__settings.html" title="Represents settings for the SIPP algorithm." alt="" coords="435,385,544,412"/>
+</map>

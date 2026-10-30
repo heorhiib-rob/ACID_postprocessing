@@ -1,0 +1,15 @@
+<map id="Visualization::update" name="Visualization::update">
+<area shape="rect" id="node1" title="Updates the visualization." alt="" coords="1325,207,1484,233"/>
+<area shape="rect" id="node2" href="$classVisualizer.html#a2a4b3454e01bfe0ae090e21ce340118a" title="Create a playback bar for the visualization." alt="" coords="625,203,832,245"/>
+<area shape="rect" id="node4" href="$classVisualizer.html#a531350c5ec8ec39867647997690fc9fb" title="The function that runs in the visualization thread." alt="" coords="280,96,395,123"/>
+<area shape="rect" id="node8" href="$classVisualization.html#ac5aa699b22c6a38cd3d7557576990bba" title="Increase the iteration counter and update the visualization. Stop the visualization if the maximum ti..." alt="" coords="657,47,800,89"/>
+<area shape="rect" id="node9" href="$classVisualization.html#a0ecf648d25ecba1d8149d6dbe843b03e" title="Resets the visualization." alt="" coords="1131,179,1277,205"/>
+<area shape="rect" id="node12" href="$classVisualization.html#aca9535f375c246c74c26a81d2edd9712" title="Takes one step backward in the visualization." alt="" coords="910,313,1053,354"/>
+<area shape="rect" id="node13" href="$classVisualization.html#a55f1496f330bbefdd55856eaad316fd1" title="Takes one step forward in the visualization." alt="" coords="1133,369,1275,410"/>
+<area shape="rect" id="node3" href="$classVisualizer.html#a5039ba670d8066a94163e5f6460d7236" title="Create the left panel of the window." alt="" coords="443,118,577,159"/>
+<area shape="rect" id="node7" href="$classVisualizer.html#a32c8ba24e8b728ad92220a0b546432eb" title="Create the right panel of the window." alt="" coords="443,201,577,242"/>
+<area shape="rect" id="node5" href="$group__thread__management.html#ga2b6436ec715468955ebb9f53b908773f" title="Starts the visualization thread." alt="" coords="108,96,232,123"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a808f40e2e9d6eb5463165c031dfa3eb1" title=" " alt="" coords="5,96,60,123"/>
+<area shape="rect" id="node10" href="$classVisualizer.html#acce90236fdc5b00a22d087a34a9e3787" title="Update function of the LNS visualization." alt="" coords="880,145,1083,186"/>
+<area shape="rect" id="node11" href="$classVisualization.html#a0a4c1f3b1ec056b32e4718767f3f6910" title="Starts the visualization." alt="" coords="909,211,1053,237"/>
+</map>
