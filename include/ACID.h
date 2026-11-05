@@ -8,7 +8,7 @@ class ACIDNode
     public:
         size_t id;
         int location;
-        int min_duration;
+        int min_leave_t; // ? if I get to the node later doesnt always mean I cannot leave as planned
 
         ACIDNode(
             size_t _id,
@@ -17,47 +17,68 @@ class ACIDNode
             : 
             id(_id), 
             location(point.location), 
-            min_duration(
+            min_leave_t(
                 point.interval.t_max == INT_MAX ?
                 -1 : 
-                point.interval.t_max - point.interval.t_min + 1
+                point.interval.t_max + 1
             ) 
             {}
 };
 
 class ACIDConstrainedGraph
 {
-    // * a constrained graph of 1 agent
-    // it is static so just a an initial plan is stored
+    // * A constrained graph of 1 agent
+    // it is static so just an initial plan is stored
     public:
         ACIDConstrainedGraph(
+            int _agent_id,
             const TimePointPath& path
         );
+        
+        const ACIDNode& get_node(size_t idx) const;
+        size_t size(void) const;
     private:
+        int agent_id;
         std::vector<ACIDNode> nodes;
 };
 
 class ACIDSearchNode
 {
     /*
-    * a search node which is dynamically changed
+    * A search node which is dynamically changed
     */
    public:
     size_t node_id; // Position in a constrained graph
-    int arrival_time; // time when entered this pose
+    int time; // current search time
     
     int delays = 0; // search cost 
-    int colisions = 0;
+    int fixed_collisions = 0; //with already planned agents
+    int original_collisions = 0; // original collisions that could be resolved
     int parent = -1; // Parent search node
 
-    ACIDSearchNode(size_t _node_id, int _arrival_time, int _parent = -1)
+    ACIDSearchNode(size_t _node_id, int _time, int _parent = -1)
         :
         node_id(_node_id),
-        arrival_time(_arrival_time),
-        parent(parent)
+        time(_time),
+        parent(_parent)
         {}
 
     bool operator>(const ACIDSearchNode& other) const;
+};
+
+class ACIDPlanner
+{
+    // TODO : incorporate SafeIntervalTable to check for collisions 
+    public:
+        ACIDPlanner(const ACIDConstrainedGraph& graph);
+        TimePointPath plan( void );
+    private:
+        const ACIDConstrainedGraph& constrined_graph;
+        std::vector<ACIDSearchNode> search_graph;
+
+        // expand
+        std::vector<ACIDSearchNode> get_successors(int current_idx);
+        TimePointPath retrieve_path( void );
 
 };
 
