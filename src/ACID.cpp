@@ -31,9 +31,33 @@ bool ACIDSearchNode::operator>(const ACIDSearchNode& other) const
     return delays > other.delays;
 }
 
-ACIDPlanner :: ACIDPlanner(const ACIDConstrainedGraph& graph)
-: constrined_graph(graph)
+ACIDPlanner :: ACIDPlanner(            
+    const ACIDConstrainedGraph& graph,
+    const SafeIntervalTable &hard_constraints,
+    const SafeIntervalTable &soft_constraints
+)
+: constrined_graph(graph), hard_constraints(hard_constraints), soft_constraints(soft_constraints)
 {}
+
+
+bool is_free(
+    const SafeIntervalTable& table,
+    int location,
+    int t_min,
+    int t_max
+)
+{
+    if(t_min > t_max) return false;
+
+    auto [first, last] = table.get_safe_intervals(
+        location,
+        TimeInterval(t_min, t_max)
+    );
+
+    return first != last && 
+            first->t_min <= t_min &&
+            last->t_max >= t_max;
+}
 
 std::vector<ACIDSearchNode> ACIDPlanner :: get_successors(
     int current_idx  
@@ -92,6 +116,7 @@ TimePointPath ACIDPlanner::plan( void )
     // TODO: think of initial collisions
     // ? considering LNS2 gotta some how find fixed collisions with 
     // ? not alternated with ACID paths
+    // * why would I do that if I cannot resolve em?
 
     auto cmp = [this](int a, int b)
     {
@@ -128,4 +153,26 @@ TimePointPath ACIDPlanner::plan( void )
     }
 
     return {}; // !NO SOLUTION
+}
+
+ACIDPostProcessor::Paths ACIDPostProcessor::solve(
+    const Paths& paths,
+    const SafeIntervalTable& hard_constraints
+)
+{
+    buildConstrainedGraphs(paths);
+
+    // TODO : build soft_constraints from paths
+    // * a SafeIntervalTable of agents that will be planned by ACID
+
+    for(const auto& path : paths)
+    {
+        // TODO:
+        //    - Remove path from soft_constraints
+        //    - Creat ACIDPlanner
+        //    - Run plan()
+        //    - add new paths to hard_constraints
+        
+    }
+    return {};
 }

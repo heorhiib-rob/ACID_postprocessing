@@ -1371,7 +1371,7 @@ void LNS::repair_default(Solution& sol) const
       sipp_info[i] = std::move(planner->iter_info);
       planner->iter_info.clear();
     }
-
+    // TODO : add ACID here or in the SIPPS so it is called for 1 agent only 
     planner->safe_interval_table.add_constraints(tp_path);
     if (constraint_table_initialized)
     {

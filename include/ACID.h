@@ -1,6 +1,7 @@
 #include <vector>
 
 #include "utils.h"
+#include "SafeIntervalTable.h"
 
 class ACIDNode
 {
@@ -52,9 +53,11 @@ class ACIDSearchNode
     int time; // current search time
     
     int delays = 0; // search cost 
-    int fixed_collisions = 0; //with already planned agents
+    int fixed_collisions = 0; //with already planned agents 
+    // ? are fixed acceptable?
     int original_collisions = 0; // original collisions that could be resolved
     int parent = -1; // Parent search node
+    bool node_colided = false; // collision check flag
 
     ACIDSearchNode(size_t _node_id, int _time, int _parent = -1)
         :
@@ -69,16 +72,24 @@ class ACIDSearchNode
 class ACIDPlanner
 {
     // TODO : incorporate SafeIntervalTable to check for collisions 
+    // ? do  I need it if anyways i need to check only path that are currently planning
     public:
-        ACIDPlanner(const ACIDConstrainedGraph& graph);
+        ACIDPlanner(
+            const ACIDConstrainedGraph& graph,
+            const SafeIntervalTable &hard_constraints,
+            const SafeIntervalTable &soft_constraints
+        );
         TimePointPath plan( void );
     private:
         const ACIDConstrainedGraph& constrined_graph;
         std::vector<ACIDSearchNode> search_graph;
 
+        const SafeIntervalTable &hard_constraints;
+        const SafeIntervalTable &soft_constraints; 
+
         // expand
         std::vector<ACIDSearchNode> get_successors(int current_idx);
-        TimePointPath retrieve_path( void );
+        TimePointPath retrieve_path(void);
 
 };
 
@@ -88,7 +99,12 @@ class ACIDPostProcessor
     using Paths = std::vector<TimePointPath>;
     private:
         std::vector<ACIDConstrainedGraph> graphs;
+
         void buildConstrainedGraphs(const Paths& paths);
+
     public:
-        Paths solve(const Paths& paths);
+        Paths solve(
+            const Paths& paths,
+            const SafeIntervalTable& hard_constraints
+        );
 };
