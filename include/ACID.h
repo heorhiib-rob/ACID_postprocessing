@@ -21,7 +21,7 @@ class ACIDNode
             min_leave_t(
                 point.interval.t_max == INT_MAX ?
                 -1 : 
-                point.interval.t_max + 1
+                point.interval.t_max
             ) 
             {}
 };
@@ -50,29 +50,32 @@ class ACIDSearchNode
     */
    public:
     size_t node_id; // Position in a constrained graph
-    int time; // current search time
+
+    TimeInterval interval; // ! Safe interval
+    int time; // Earliest arrival time
     
-    int delays = 0; // search cost 
-    int fixed_collisions = 0; //with already planned agents 
-    // ? are fixed acceptable?
-    int original_collisions = 0; // original collisions that could be resolved
     int parent = -1; // Parent search node
-    bool node_colided = false; // collision check flag
 
-    ACIDSearchNode(size_t _node_id, int _time, int _parent = -1)
-        :
-        node_id(_node_id),
-        time(_time),
-        parent(_parent)
-        {}
+    ACIDSearchNode(
+        size_t _node_id,
+        const TimeInterval& _interval,
+        int _time,
+        int _parent = -1
+    ) : 
+    node_id(_node_id),
+    interval(_interval),
+    time(_time),
+    parent(_parent)
+    {}
 
-    bool operator>(const ACIDSearchNode& other) const;
 };
 
 class ACIDPlanner
 {
     // TODO : incorporate SafeIntervalTable to check for collisions 
-    // ? do  I need it if anyways i need to check only path that are currently planning
+    // ! I was mkaing nonesence so I need basically implement a Dijkstra
+    // ! Later implement a SIPPS
+    // * all over the constraint graf
     public:
         ACIDPlanner(
             const ACIDConstrainedGraph& graph,
@@ -87,9 +90,17 @@ class ACIDPlanner
         const SafeIntervalTable &hard_constraints;
         const SafeIntervalTable &soft_constraints; 
 
-        // expand
+        // Expand
         std::vector<ACIDSearchNode> get_successors(int current_idx);
-        TimePointPath retrieve_path(void);
+        bool find_earliest_arrival_t(
+            const int src,
+            const int dst, 
+            int& earliest_t, 
+            const int latest_t
+        );
+
+        // Path reconstruction
+        TimePointPath retrieve_path(int goal_idx);
 
 };
 
