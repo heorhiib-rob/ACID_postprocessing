@@ -19,6 +19,7 @@
 
 #include "IterInfo.h"
 #include "SafeIntervalTable.h"
+#include "ACID.h"
 
 class SIPP_settings
 {
@@ -185,6 +186,7 @@ private:
   std::vector<int>     known_min;  // known node database
   std::mt19937&        rnd_generator;
   const SIPP_settings& settings;
+  acid::ACIDPlanner    postprocessor;
 
 
   //SIPPS

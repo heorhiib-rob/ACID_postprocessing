@@ -1,6 +1,8 @@
 #include "ACID.h"
 
 #include <queue>
+#include <algorithm>
+using namespace acid;
 
 size_t ACIDConstrainedGraph::size( void ) const
 {
@@ -24,13 +26,10 @@ ACIDConstrainedGraph::ACIDConstrainedGraph(int _agent_id, const TimePointPath& p
 }
 
 ACIDPlanner :: ACIDPlanner(            
-    const ACIDConstrainedGraph& graph,
-    const SafeIntervalTable &hard_constraints,
-    const SafeIntervalTable &soft_constraints
-)
-: constrined_graph(graph), hard_constraints(hard_constraints), soft_constraints(soft_constraints)
-{}
-
+    const SafeIntervalTable &hard_constraints
+):hard_constraints(hard_constraints)
+{
+}
 
 bool is_free(
     const SafeIntervalTable& table,
@@ -83,12 +82,12 @@ std::vector<ACIDSearchNode> ACIDPlanner :: get_successors(
 
     // Current nodes
     ACIDSearchNode current_state = search_graph.at(current_idx); //search state
-    ACIDNode current_loc = constrined_graph.get_node(current_state.node_id);
+    ACIDNode current_loc = constrained_graph->get_node(current_state.node_id);
 
-    if(current_state.node_id + 1 >= constrined_graph.size())
+    if(current_state.node_id + 1 >= constrained_graph->size())
         return {}; // last node => no successors
 
-    // Transfer times to the next location
+    // * Transfer times to the next location
     int earliest_arrival = std::max(
         current_state.time + 1,
         current_loc.min_leave_t + 1
@@ -104,7 +103,7 @@ std::vector<ACIDSearchNode> ACIDPlanner :: get_successors(
 
     // Next location
     int next_idx = current_state.node_id + 1;
-    ACIDNode next = constrined_graph.get_node(next_idx);
+    ACIDNode next = constrained_graph->get_node(next_idx);
 
     auto [begin, end] = hard_constraints.get_safe_intervals(
         next.location, 
@@ -119,12 +118,12 @@ std::vector<ACIDSearchNode> ACIDPlanner :: get_successors(
         int arrival_t = std::max(
             earliest_arrival,
             interval.t_min
-        ); // start of time search in the current interval
+        ); // * start of time search in the current interval
 
         int latest_t = std::min(
             latest_arrival,
             interval.t_max
-        ); // end
+        ); // * end
 
         bool found = find_earliest_arrival_t(
             current_loc.location,
@@ -142,43 +141,81 @@ std::vector<ACIDSearchNode> ACIDPlanner :: get_successors(
         );
     }
 
-    /*
-     Go through intervals of next 
-     Check for collisions 
-     add successors
-    */
+    return successors;
 }
 
-TimePointPath ACIDPlanner::plan(void)
+TimePointPath ACIDPlanner::plan(const TimePointPath& original_path)
 {
     search_graph.clear();
-    ACIDNode start_loc = constrined_graph.get_node(0);
-    TimeInterval 
+    constrained_graph.emplace(0, original_path);
+    ACIDNode start_loc = constrained_graph->get_node(0);
     // TODO: 
+    //  - create start
     //  - some kind of comparator
     //  - basically an A*
 
+    auto start_int = *(hard_constraints.get_first_safe_interval(
+        start_loc.location
+    ));
+
+    if(start_int.t_min > 0) return {};
+
+    ACIDSearchNode start(
+        start_loc.id,
+        start_int,
+        0
+    );
+
+    auto cmp = [this](int a_idx, int b_idx){
+        return search_graph[a_idx].time >
+                search_graph[b_idx].time;
+    };
+    std::priority_queue<int, std::vector<int>, decltype(cmp)> open(cmp);
+
+    search_graph.push_back(start);
+    open.push(0);
+
+    while(!open.empty())
+    {
+        int current_idx = open.top();
+        open.pop();
+
+        const ACIDSearchNode& current = search_graph.at(current_idx);
+
+        if(current.node_id + 1 == constrained_graph->size() && 
+            current.interval.t_max == INT_MAX)
+            return retrieve_path(current_idx);
+        
+        for(const auto& successor : get_successors(current_idx))
+        {
+            int new_id = search_graph.size();
+            search_graph.push_back(successor);
+            open.push(new_id);
+        }
+    }
+
+    return {};
 }
 
-ACIDPostProcessor::Paths ACIDPostProcessor::solve(
-    const Paths& paths,
-    const SafeIntervalTable& hard_constraints
-)
+TimePointPath ACIDPlanner::retrieve_path(int goal_idx)
 {
-    // ! Dont need it
-    buildConstrainedGraphs(paths);
-
-    // TODO : build soft_constraints from paths
-    // * a SafeIntervalTable of agents that will be planned by ACID
-
-    for(const auto& path : paths)
+    int current_idx = goal_idx;
+    int t_max = INT_MAX;
+    TimePointPath path;
+    while(current_idx != -1)
     {
-        // TODO:
-        //    - Remove path from soft_constraints
-        //    - Creat ACIDPlanner
-        //    - Run plan()
-        //    - add new paths to hard_constraints
-        
+        const ACIDSearchNode current = search_graph.at(current_idx);
+        ACIDNode current_loc = constrained_graph->get_node(current.node_id);
+        TimeInterval interval(current.time, t_max);
+        t_max = current.time - 1;
+
+        path.emplace_back(
+            current_loc.location,
+            interval
+        );
+
+        current_idx = current.parent;
     }
-    return {};
+    std::reverse(path.begin(), path.end());
+    return path;
 }

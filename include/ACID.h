@@ -1,8 +1,11 @@
 #include <vector>
+#include <optional>
 
 #include "utils.h"
 #include "SafeIntervalTable.h"
 
+namespace acid
+{
 class ACIDNode
 {
     // * a vertex of a constrained graph
@@ -78,17 +81,16 @@ class ACIDPlanner
     // * all over the constraint graf
     public:
         ACIDPlanner(
-            const ACIDConstrainedGraph& graph,
-            const SafeIntervalTable &hard_constraints,
-            const SafeIntervalTable &soft_constraints
+            const SafeIntervalTable &hard_constraints
+            //const SafeIntervalTable &soft_constraints
         );
-        TimePointPath plan( void );
+        TimePointPath plan(const TimePointPath& original_path);
     private:
-        const ACIDConstrainedGraph& constrined_graph;
+        std::optional<ACIDConstrainedGraph> constrained_graph;
         std::vector<ACIDSearchNode> search_graph;
 
         const SafeIntervalTable &hard_constraints;
-        const SafeIntervalTable &soft_constraints; 
+        //const SafeIntervalTable &soft_constraints; 
 
         // Expand
         std::vector<ACIDSearchNode> get_successors(int current_idx);
@@ -99,6 +101,7 @@ class ACIDPlanner
             const int latest_t
         );
 
+        void buildConstrainedGraph(const TimePointPath& path);
         // Path reconstruction
         TimePointPath retrieve_path(int goal_idx);
 
@@ -111,11 +114,11 @@ class ACIDPostProcessor
     private:
         std::vector<ACIDConstrainedGraph> graphs;
 
-        void buildConstrainedGraphs(const Paths& paths);
-
     public:
         Paths solve(
             const Paths& paths,
             const SafeIntervalTable& hard_constraints
         );
 };
+
+} // acid
